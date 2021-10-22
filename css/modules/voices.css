@@ -1,0 +1,31 @@
+
+.voice-types {
+   font-family: 'Lato', sans-serif;
+}
+
+.voice-types div+div {
+   margin-top:  5px;
+}
+
+.voice-types div:nth-of-type(1) {
+   font-size:  14px;
+}
+
+.voice-types div:nth-of-type(2) {
+   font-size:  16px;
+}
+
+
+.voice-types div:nth-of-type(3) {
+   font-size:  25px;
+}
+
+
+.voice-types div:nth-of-type(4) {
+   font-size:  35px;
+}
+
+.voice-types div:nth-of-type(5) {
+   font-size:  45px;
+}
+
