@@ -1,0 +1,40 @@
+
+.site-header {
+   background-color: var(--white);
+   z-index:  1000;
+
+}
+mast-head {
+  display: block;
+}
+
+mast-head nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+mast-head .site-menu .loud-voice {
+  background: var(--gradient-1);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   letter-spacing: 1px;
+}
+
+mast-head .site-menu .loud-voice span{
+letter-spacing: -9px;
+}
+
+
+mast-head a {
+  padding:  10px;
+}
+
+
+@media (min-width: 600px) {
+  mast-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
