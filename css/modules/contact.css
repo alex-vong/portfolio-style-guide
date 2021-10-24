@@ -1,0 +1,43 @@
+
+.contact-me {
+   display:  flex;
+   gap:  24px;
+
+   align-items: center;
+   text-align: center;
+
+
+
+
+}
+
+.get-in-touch {
+   width: 25%;
+   height:  5vh;
+   display:  flex;
+   align-items: center;
+   border-right:  1px solid rgb(var(--primary));
+
+}
+
+.get-in-touch h3 {
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(var(--primary));
+
+
+}
+
+,get-in-touch .calm-voice {
+   font-size:  20px;
+}
+
+.contact-grid {
+   display:  grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: auto;
+   gap:  24px;
+
+   width:  75%;
+    text-transform: uppercase;
+
+}
