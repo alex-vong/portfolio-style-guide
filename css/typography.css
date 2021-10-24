@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Esteban&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-.loud-voice	{
-   font-family: 'Montserrat', sans-serif;;
-	font-size: clamp(36px, 5vw, 60px);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+   line-height: 1.2;
+   letter-spacing: 0.2px;
 
 }
-@media (min-width: 600px) {
-	.loud-voice {
-		font-weight: 700;
-	}
+
+
+.loud-voice	{
+   font-family: 'Montserrat', sans-serif;
+	font-size: clamp(40px, 5vw, 50px);
+   font-weight: 700;
+
 }
 
 .intro-voice	{
@@ -17,15 +23,22 @@
 }
 
 .attention-voice	{
-   font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+   font-family: 'Roboto Slab', serif;
+	font-size: clamp(22px, 2.2vw, 25px);
 }
 
 .calm-voice {
-   font-family: 'Lato', sans-serif;
-	font-size: 1rem;
-	line-height: 1.4;
-   letter-spacing: 0.2px;
+   font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+   line-height: 1.4;
+}
+
+.quiet-voice {
+    font-family: 'Montserrat', sans-serif;
+   font-size:  14px;
+   line-height: 1.4;
+
+
 }
 
 /* these would be scoped to section or to an article element */
@@ -42,3 +55,6 @@ h2 + p {
 	margin-top: 20px;
 }
 
+h2 + h3 {
+   margin:  20px 0;
+}

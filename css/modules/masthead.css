@@ -1,6 +1,6 @@
 
 .site-header {
-   background-color: var(--white);
+   background-color: inherit;
    z-index:  1000;
 
 }

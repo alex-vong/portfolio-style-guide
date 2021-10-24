@@ -1,60 +1,115 @@
 .site-map * {
-   /*border:  1px solid black;*/
+   /*border:  1px solid var(--dark);*/
 }
 
-.site-map nav {
-   display: flex;
+
+
+.site-nav {
+   min-height:  30vh;
+   border:  1px solid var(--dark);
+   margin-bottom: 15px;
+   padding: 15px;
+
+}
+
+.site-nav nav {
+   display:  flex;
    justify-content: space-between;
-   padding-right:  0px;
+
+
 
 }
+
 
 .site-map nav ul {
-   display: flex;
-   align-items:  flex-end;
-   justify-content: flex-end;
-   gap: 25px;
-    padding-right:  0px;
-
-
-   width: min(50%, 40vw);
+   padding-top:  5px;
+   /*border:  1px solid red;*/
 }
 
-.site-map nav ul li {
-   padding:  10px 0 0 15px;
-}
 .site-map ul li .calm-voice {
    padding: 0;
-   font-size:  20px;
+   font-size:  17px;
 
 }
 .site-map .logo h1 {
 background: var(--gradient-1);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-letter-spacing: -9px;
+letter-spacing: -6px;
+vertical-align: text-top;
 
 }
+
+
+@media (min-width:  768px) {
+
+   .site-nav {
+
+   }
+
+   .site-nav ul {
+      width: min(60%, 40vw);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items:  flex-end;
+   }
+
+   .site-map nav ul {
+      padding:  0 0 5px;
+   }
+
+}
+
+
+@media (min-width: 1000px) {
+
+   .bar {
+      height:  20px;
+      width:  120px;
+      background: var(--gradient-1);
+   }
+
+   .site-nav ul {
+      width: min(60%, 40vw);
+      height:  30vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items:  flex-end;
+
+      gap:  5px;
+
+   }
+
+
+
+
+}
+
 
 .site-map h2:nth-of-type(2) {
    font-size:  20px;
-   margin-top:  30px;
+   margin-top:  40px;
    border:  none;
 }
+
+
+
+
+
 
 
 .bread-crumbs ul{
    display: flex;
    gap:  10px;
+   padding: 12px;
 
 }
 
 .bread-crumbs ul div{
    align-self:  center;
    font-size: 20px;
-  
-
-
 
 }
 
@@ -64,10 +119,10 @@ letter-spacing: -9px;
 }
 
 .bc {
-   border:  1px solid black;
+   border:  1px solid var(--dark);
    position:  relative;
    background-color: var(--white);
-   color:  var(--purple);
+   color:  var(--secondary);
 }
 
 .bc::after{
@@ -94,13 +149,6 @@ letter-spacing: -9px;
    font-weight:  600;
    font-size:  22px;
 }
-
-
-
-
-
-
-
 
 
 
