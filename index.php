@@ -17,15 +17,33 @@
 	</inner-column>
 </section>
 
-<section class='page-section site-map'>
+ <section class='page-section site-map'>
 	<inner-column>
 	 	<?php include('modules/site-map.php'); ?>  
 	</inner-column>
-</section>
+</section>  
 
 <section class='page-section voices'>
 	<inner-column>
 	 	<?php include('modules/voices.php'); ?>  
+	</inner-column>
+</section>
+
+<section class='page-section buttons'>
+	<inner-column>
+	 	<?php include('modules/buttons.php'); ?>  
+	</inner-column>
+</section>
+
+<section class='page-section layout'>
+	<inner-column>
+	 	<?php include('modules/layout.php'); ?>  
+	</inner-column>
+</section>
+
+<section class='page-section contact'>
+	<inner-column>
+	 	<?php include('modules/contact.php'); ?>  
 	</inner-column>
 </section>
 
