@@ -1,22 +1,49 @@
-
-/* COMPONENTS */
-.button {
-  text-transform: uppercase;
-  color: inherit;
-  font-weight: 700;
-  letter-spacing: .05em;
-  text-decoration: underline;
-  padding:  10px 0;
-  /* should a link look like a "button" though? */
-  display: flex;
-  flex-direction: row;
-  border:  1px solid black;
-  padding:  10px;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight:  400;
+.buttons-list ul {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap:  wrap;
+   gap:  20px 74px;
 }
 
-.arrow {
-  /* maybe icons in here? Any reusable smaller things */  
-}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  background: var(--white) none repeat scroll 0% 0%;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out 0s;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  text-align: center;
+
+  border:  1px solid var(--dark);
+  margin-top: 20px;
+  color:  var(--white);
+
+  box-shadow: 5px 5px var(--white), 
+    5px 5px 0px 2px rgb(var(--primary));
+
+} 
+
+.btn:hover {
+  left: 4px;
+  top: 4px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+} 
+
+.btn-secondary {
+  background-color: rgb(var(--primary)); 
+} 
+
+.btn-gradient{
+  background: var(--gradient-1);
+} 
+
+.btn-light {
+  color:  var(--dark);
+} 
+
+
