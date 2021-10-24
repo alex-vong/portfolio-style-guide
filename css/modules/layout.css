@@ -1,0 +1,83 @@
+
+
+
+.layout .example-text, .projects {
+   display:  flex;
+   justify-content: space-between;
+
+}
+
+.layout .example-text h2 {
+   width:  51%;
+
+}
+
+.layout .heading {
+   letter-spacing: 1px;
+   margin-bottom:  20px;
+}
+
+.layout .calm-voice {
+   font-family: 'Montserrat', sans-serif;
+   font-size:  18px;
+   margin-bottom: 25px;
+
+}
+
+.layout .example-text .about-me, .projects .project-details {
+   width:  49%;
+}
+
+
+
+.projects-section {
+   display:  flex;
+   flex-direction: column;
+   gap:  0 80px;
+   margin-top: 40px;
+
+}
+
+.project-heading {
+   display:  flex;
+   align-items: center;
+   gap: 10px;
+   margin-bottom: 40px;
+
+}
+
+.project-heading div {
+   width: 100%;
+   height:  4px;
+   background: var(--gradient-1);
+
+}
+
+.project-grid {
+   display:  grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap:  0 24px;
+}
+
+
+.project {
+   display:  flex;
+   flex-direction: column;
+
+   gap:  15px;
+
+
+}
+
+.project picture {
+   border:  1px solid rgb(var(--primary));
+      width:  90%;
+   margin:  0 auto;
+}
+
+
+
+.project h3.calm-voice {
+
+   margin-bottom: 5px;
+}
