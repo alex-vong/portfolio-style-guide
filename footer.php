@@ -6,13 +6,7 @@
 		<footer class='site-footer'>
 		<inner-column>
 
-			<!-- no headers in footers allowed? -->
-			<div class='what-to-call-it-then'>
-				
-
-			</div>
-
-			<!-- <?php include('modules/site-map.php'); ?> -->
+			<?php include('modules/site-footer.php'); ?> 
 
 		</inner-column>
 		</footer>
