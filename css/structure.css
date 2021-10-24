@@ -3,7 +3,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh; /* for the footer */
-   color:  var(--black);
+   background-color: var(--white);
+   color:  var(--dark);
    overflow-x: hidden;
 } 
 
@@ -15,7 +16,7 @@ main {
 
 inner-column {
 	display:  block;
-	max-width: 1100px; /* could be a variable in settings */
+	width: min(85%, 1100px); /* could be a variable in settings */
 	margin-right: auto;
 	margin-left: auto;
 	padding: 30px 14px; /* a default */

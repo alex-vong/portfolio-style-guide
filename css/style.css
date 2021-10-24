@@ -29,8 +29,10 @@
 @import 'modules/colors.css';
 @import 'modules/site-map.css';
 @import 'modules/voices.css';
+@import 'modules/layout.css';
+@import 'modules/contact.css';
 
-/* should everything/nothing be in it's own file? */
+
 
 
 
@@ -38,13 +40,6 @@ html {
 	background-color: var(--white);
 }
 
-
-
-
-/*
-	This the area where you work out your styles 
-	If it makes sense, you can break these out into their own files.
-*/
 
 
 /* SITE SECTIONS */
