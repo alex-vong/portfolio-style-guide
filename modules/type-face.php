@@ -33,9 +33,9 @@
   </div>
 
   <div class="font body">
-    <h2 class="flag">Lato</h2>
+    <h2 class="flag">Roboto Slab</h2>
 
-    <div class="large">
+    <div class="large calm-voice">
       <div class="letters upper-case">
         abcdefghijklmnopqrstuvwxyz</div>
       <div class="letters uppercase">
@@ -46,7 +46,7 @@
         12345678910</div>
     </div>
 
-    <div class="normal">
+    <div class="normal calm-voice">
       <div class="letters upper-case">
         abcdefghijklmnopqrstuvwxyz</div>
       <div class="letters uppercase">
@@ -60,7 +60,7 @@
 
   <div class="example-text body">
     <h2 class="flag">Example text</h2>
-    <h2 class="loud-voice">Hi, I'm Alex</h2>
+    <h2 class="loud-voice">Hi, I'm <span>Alex&nbsp;Vong</span></h2>
     <h3 class="attention-voice">I create amazing experiences 
 through <span>Design</span> and <span>Development</span></h3>
 
@@ -70,4 +70,10 @@ through <span>Design</span> and <span>Development</span></h3>
     <p class="calm-voice">
       Lorem, <span>buzz word</span> ipsum dolor sit amet consectetur adipisicing, elit. Excepturi at quas quibusdam voluptate ex fuga, unde perferendis <span>buzz word</span> quod natus quam rem, distinctio, odit commodi dicta.
     </p>
+    <p class="calm-voice">
+      The quick brown fox jumped over the lazy fox.
+    </p>
+      <a href="#" class='btn btn-secondary'>Button</a>
   </div>
+
+
